@@ -40,7 +40,7 @@ class Stats(Base):
     totalDamageDealtToChampions = Column(Integer)
     champLevel = Column(Integer)
     winner = Column(Boolean)
-	championId = Column(Integer)
+    championId = Column(Integer)
     #Gold
     minionsKilled = Column(Integer)
     goldEarned = Column(Integer)
